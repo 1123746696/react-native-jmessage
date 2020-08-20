@@ -15,10 +15,7 @@ import java.util.List;
  * Created by xsdlr on 2016/12/14.
  */
 public class JMessagePackage implements ReactPackage {
-    public JMessagePackage(boolean isDebug) {
-        super();
-        JMessageModule.isDebug = isDebug;
-    }
+ 
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
